@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 474ef41583c324545b8600d22a27c923, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 2709a5b81a741724fb62baaa1f8115eb, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0686048, g: 0.016907174, b: 0.047509406, a: 1}
+  m_IndirectSpecularColor: {r: 0.19131424, g: 0.20848647, b: 0.06888248, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3160,6 +3160,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313260358}
   m_CullTransparentMesh: 1
+--- !u!1 &319564363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 319564365}
+  - component: {fileID: 319564364}
+  - component: {fileID: 319564366}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &319564364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319564363}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40211236, y: 0.34649497, z: 0.40906465}
+  m_Center: {x: -0.006952226, y: -0.20508936, z: -0.017380506}
+--- !u!4 &319564365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319564363}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.572, y: 0.843, z: -1.257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &319564366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319564363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a87a4f095bd38040b3a9b0bf1f56e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LaEtiqueta: Objeto1
+  objetoDES: {fileID: 8296172669380533193}
 --- !u!1 &329674977
 GameObject:
   m_ObjectHideFlags: 0
@@ -10957,11 +11025,11 @@ GameObject:
   - component: {fileID: 986458570}
   m_Layer: 0
   m_Name: Sphere Interactable
-  m_TagString: Untagged
+  m_TagString: Objeto1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &986458564
 Transform:
   m_ObjectHideFlags: 0
@@ -10971,8 +11039,8 @@ Transform:
   m_GameObject: {fileID: 986458563}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2500005, y: 2.8134003, z: 0.5}
-  m_LocalScale: {x: 75, y: 75, z: 75}
+  m_LocalPosition: {x: 1.41, y: 0.759, z: -0.18}
+  m_LocalScale: {x: 40.5285, y: 40.5285, z: 40.5285}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 171459141}
@@ -18581,7 +18649,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 4e-45, z: 1.6355e-41, w: 6.979498e-39}
+  m_BoundingSphereOverride: {x: 9.1835e-41, y: 1.1681476e-37, z: 6e-44, w: 3e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -23834,7 +23902,7 @@ Transform:
   m_GameObject: {fileID: 8296172669380533193}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.511737, y: 1.4042577, z: -2.98}
+  m_LocalPosition: {x: 2.622, y: 0.622, z: -1.36}
   m_LocalScale: {x: 28.59177, y: 28.59177, z: 28.59177}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24910,3 +24978,4 @@ SceneRoots:
   - {fileID: 1565887663878291441}
   - {fileID: 1703568386}
   - {fileID: 1472827588}
+  - {fileID: 319564365}
