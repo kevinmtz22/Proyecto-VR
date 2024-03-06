@@ -7,6 +7,9 @@ TagManager:
   - Anchor
   - Objeto1
   - LlantaIzq
+  - Bateria
+  - CentroCarga
+  - Motor
   layers:
   - Default
   - TransparentFX
